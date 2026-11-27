@@ -6,7 +6,7 @@ on:
       - main
   schedule:
     - cron: "0 18 * * *"
-      timezone: "America/Los_Angeles"
+      timezone: "Asia/Kolkata"
   workflow_dispatch:
 permissions:
   contents: read
