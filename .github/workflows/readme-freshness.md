@@ -48,8 +48,6 @@ Use the imported README Freshness Auditor instructions.
 
 - Event: `${{ github.event_name }}`
 - Repository: `${{ github.repository }}`
-- Branch: `${{ github.ref_name }}`
-- Current commit: `${{ github.sha }}`
 - Push range start (empty for non-push events): `${{ github.event.before }}`
 - Push range end: `${{ github.event.after }}`
 
