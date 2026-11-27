@@ -58,7 +58,7 @@ pytest tests/test_inventory_monitoring_agent.py
 ```
 
 ## README freshness workflow
-The GitHub Agentic Workflow in `.github/workflows/readme-freshness.md` checks whether changes on `main` leave the root README inaccurate or missing important setup or behavior. It runs on pushes to `main`, every day at 6:00 PM Pacific Time, and can be started manually from the GitHub Actions page with **Run workflow**. Verified documentation gaps are reported as GitHub issues; the workflow does not modify repository files.
+The GitHub Agentic Workflow in `.github/workflows/readme-freshness.md` checks whether changes on `main` leave the root README inaccurate or missing important setup or behavior. It runs on pushes to `main`, every day at 6:00 PM India Standard Time, and can be started manually from the GitHub Actions page with **Run workflow**. Verified documentation gaps are reported as GitHub issues; the workflow does not modify repository files.
 
 ## Run the frontend
 In a second terminal:
